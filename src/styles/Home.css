@@ -1,0 +1,86 @@
+/* Home.css */
+
+.home-heading {
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top: 80px;
+    text-align: center;
+  }
+  
+  .content-container {
+    background-color: #77291B;
+    width: 70%;
+    max-width: 1000px; /* Ensures it doesn't grow too wide */
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .content-container::before,
+  .content-container::after {
+    content: '“';
+    position: absolute;
+    font-size: 5rem;
+    color: white;
+    font-family: 'sans-serif';
+    z-index: -1; /* Ensure it's behind the text */
+  }
+  
+  .content-container::before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .content-container::after {
+    content: '”';
+    bottom: -30px;
+    right: -30px;
+  }
+  
+  .content-text {
+    color: white;
+    padding: 40px;
+    text-align: justify;
+    font-size: 1rem; /* Responsive font size */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .home-heading {
+      font-size: 30px;
+      padding-top: 20px;
+    }
+  
+    .content-container {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    .content-container::before,
+    .content-container::after {
+      font-size: 3rem;
+    }
+  
+    .content-text {
+      font-size: 0.875rem; /* Smaller text for small screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .home-heading {
+      font-size: 24px;
+    }
+  
+    .content-container::before,
+    .content-container::after {
+      font-size: 2.5rem;
+    }
+  
+    .content-text {
+      font-size: 0.75rem;
+    }
+  }
+  

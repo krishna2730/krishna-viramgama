@@ -1,0 +1,26 @@
+.navbar-custom {
+    background-color: #3C443F;
+    width: 100%;
+  }
+  
+  .nav-link {
+    color: white;
+    padding: 12px 20px!important;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #77291B88;
+    color: white;
+    border-radius: 12px;
+  }
+  
+  .active-link {
+    background-color: #77291B;
+    border-radius: 12px;
+    font-weight: bold;
+    color: white !important;
+  }
+  
