@@ -28,13 +28,17 @@ const Skills = () => {
   };
 
   return (
-    <Box maxW="100%" minH="100vh" id="skills">
+    <Box
+      maxW="100%"
+      id="skills"
+      px={["15px", "40px", "40px", "40px", "40px", "40px"]}
+    >
       <Heading
-        ml={"40px"}
         color="white"
         fontWeight="700"
-        fontSize="45px"
+        fontSize={["38px", "45px", "45px", "45px", "45px", "45px"]}
         pt="80px"
+        pl={"10px"}
       >
         Skills
       </Heading>
@@ -55,8 +59,8 @@ const Skills = () => {
             "&::-webkit-scrollbar": {
               display: "none",
             },
-            "-ms-overflow-style": "none", // IE and Edge
-            "scrollbar-width": "none", // Firefox
+            msOverflowStyle: "none", // IE and Edge
+            scrollbarWidth: "none", // Firefox
           }}
         >
           {all.map((item, i) => (
@@ -82,10 +86,10 @@ const Skills = () => {
         </Flex>
         <Flex
           flex={2}
+          mt={"10px"}
           style={{
             backgroundColor: "#CCCCCC22",
             borderRadius: "8px",
-            margin: "0 15px",
             padding: "40px 40px",
           }}
         >

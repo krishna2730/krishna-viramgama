@@ -12,12 +12,12 @@ const SkillsGrid = (props) => {
         "&::-webkit-scrollbar": {
           display: "none",
         },
-        "-ms-overflow-style": "none", // IE and Edge
-        "scrollbar-width": "none", // Firefox
+        msOverflowStyle: "none", // IE and Edge
+        scrollbarWidth: "none", // Firefox
       }}
       paddingX={"20px"}
     >
-      <SimpleGrid columns={[3, 2, 2, 4]} spacing={"60px"}>
+      <SimpleGrid columns={[2, 2, 3, 3, 3, 4]} spacing={"60px"}>
         {skills.map((item, i) => (
           // <Tooltip label={item.name}>
           <Flex key={i} flexDir={"column"} alignItems={"center"}>

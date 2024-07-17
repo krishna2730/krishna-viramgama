@@ -26,6 +26,9 @@ import truffle from "../images/languages/truffle.png";
 import chakraui from "../images/languages/chrakra-ui.png";
 import github from "../images/languages/github.png";
 
+import authentical_team from "../images/authentical_team.png"
+import authentical from "../images/authentical_login.png"
+import vishnuproteins from "../images/vishnuproteins.png"
 
 
 export const programmingLanguage = [
@@ -85,20 +88,20 @@ export const hardware = [
 export const projects = [
   {
     "title": "Authentical",
-    "imageSrc": "projects/project.png",
+    "imageSrc": authentical,
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Vite", "AWS S3","AWS Cognito", "Typescript"],
-    "isLive":"true",
-    "demo": "https://www.example.com",
+    "skills": ["React", "Vite", "S3", "Cognito", "Typescript"],
+    "isLive": "true",
+    "demo": "https://www.authentical.co/team",
     "source": ""
   },
   {
     "title": "VishnuProteins",
-    "imageSrc": "projects/project.png",
+    "imageSrc": vishnuproteins,
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Vite"],
-    "isLive":"true",
-    "demo": "https://vishnurproteins.com",
+    "isLive": "true",
+    "demo": "https://vishnuproteins.com",
     "source": ""
   },
 ]
@@ -110,18 +113,18 @@ export const experince = [
     "startDate": "Aug, 2023",
     "endDate": "Present",
     "experiences": ["Deployed Smart Contracts", "Implemented REST API", "Developed Flutter App", "Integrated NFC Technology"],
-    "imageSrc": "history/google.png"
+    "imageSrc": authentical_team,
   }
 ]
 
 export const all = [
-    { name: 'Programming Languages', data: programmingLanguage},
-    { name: 'Framework', data: framework },
-    { name: 'Databases', data: Database },
-    { name: 'Tools', data: tools },
-    { name: 'Blockchain Services', data: blockchainTechnology },
-    { name: 'Cloud Services', data: cloudServices },
-    { name: 'Libraries', data: libraries },
-    { name: 'Version Control', data: versionControl },
-    { name: 'Hardware', data: hardware },  
+  { name: 'Programming Languages', data: programmingLanguage },
+  { name: 'Framework', data: framework },
+  { name: 'Databases', data: Database },
+  { name: 'Tools', data: tools },
+  { name: 'Blockchain Services', data: blockchainTechnology },
+  { name: 'Cloud Services', data: cloudServices },
+  { name: 'Libraries', data: libraries },
+  { name: 'Version Control', data: versionControl },
+  { name: 'Hardware', data: hardware },
 ]

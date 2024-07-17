@@ -13,21 +13,25 @@ import ProjectItem from "./components/ProjectItem";
 
 const Projects = () => {
   return (
-    <Box maxW="100%" minH="100vh" id="projects">
+    <Box
+      maxW="100%"
+      id="projects"
+      px={["10px", "40px", "40px", "40px", "40px", "40px"]}
+    >
       <Heading
-        ml={"40px"}
         color="white"
         fontWeight="700"
-        fontSize="45px"
+        fontSize={["38px", "45px", "45px", "45px", "45px", "45px"]}
         pt="80px"
+        pl={"10px"}
       >
         Projects
       </Heading>
       <SimpleGrid
-        ml={"40px"}
         mt={"30px"}
-        columns={[1, 2, 2, 3]}
+        columns={[1, 1, 2, 1, 2, 3]}
         spacing={"20px"}
+        px={["5px", "20px", "20px", "20px", "20px", "20px"]}
       >
         {projects.map((project, id) => {
           return <ProjectItem key={id} project={project} />;

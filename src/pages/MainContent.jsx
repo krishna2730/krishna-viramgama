@@ -7,7 +7,12 @@ import ContactMe from "./ContactMe";
 
 const MainContent = () => {
   return (
-    <Box w={"100%"} bg="#3C443FED" p={0} m={0}>
+    <Box
+      w={"100%"}
+      bg="#3C443FED"
+      px={["0px", "30px", "30px", "30px", "30px", "30px"]}
+      m={0}
+    >
       <Home />
       <Skills />
       <Projects />

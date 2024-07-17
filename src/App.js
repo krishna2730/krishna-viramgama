@@ -4,7 +4,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { ChakraProvider } from '@chakra-ui/react';
+import { ChakraProvider, CSSReset } from '@chakra-ui/react';
 
 
 function App() {
@@ -13,27 +13,12 @@ function App() {
       path: "/",
       element: <LandingPage />,
     },
-    {
-      path: "/skills",
-      element: <LandingPage />,
-    },
-    {
-      path: "/projects",
-      element: <LandingPage />,
-    },
-    {
-      path: "/contact-me",
-      element: <LandingPage />,
-    },
-    {
-      path: "/cv",
-      element: <LandingPage />,
-    },
   ]);
 
   return (
     <ChakraProvider>
-      <RouterProvider router={router}/>
+      <RouterProvider router={router} />
+      {/* <LandingPage/> */}
     </ChakraProvider>
   );
 }
