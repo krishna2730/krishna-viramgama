@@ -27,6 +27,7 @@ import chakraui from "../images/languages/chrakra-ui.png";
 import github from "../images/languages/github.png";
 
 import authentical_team from "../images/authentical_team.png"
+import authentical_logo from "../images/authentical.svg"
 import authentical from "../images/authentical_login.png"
 import vishnuproteins from "../images/vishnuproteins.png"
 
@@ -112,10 +113,37 @@ export const experince = [
     "organisation": "Authentical",
     "startDate": "Aug, 2023",
     "endDate": "Present",
-    "experiences": ["Deployed Smart Contracts", "Implemented REST API", "Developed Flutter App", "Integrated NFC Technology"],
+    "experiences": ["Developed a scalable platform using React, Vite, and TypeScript.",
+      "Implemented bulk issuance features.",
+      "Created a mobile app with Flutter, NFC, and Blockchain.",
+      "Created and deployed smart contracts.",
+      "Built high-performance REST APIs with Node.js and Express.js."],
+    "url": "https://authentical.co/team/",
     "imageSrc": authentical_team,
+    "logo": authentical_logo,
   }
 ]
+
+export const achievements = [
+  {
+    "title": "University Form Tracking [Winner]",
+    "date": "March 2023",
+    "event": "HackVGEC (University Level)",
+    "details": [
+      "Led platform development to streamline form processing.",
+      "Enhanced form completion rates with automated follow-ups."
+    ]
+  },
+  {
+    "title": "Push Notification for Aadhaar Address Change [Finalist]",
+    "date": "August 2022",
+    "event": "SIH Hackathon (National Level)",
+    "details": [
+      "Developed a middleware solution to reduce data entry errors.",
+      "Improved data accuracy with push notifications for Aadhaar address changes."
+    ]
+  }
+];
 
 export const all = [
   { name: 'Programming Languages', data: programmingLanguage },

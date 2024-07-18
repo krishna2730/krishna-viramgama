@@ -16,7 +16,7 @@ const LandingPage = () => {
           color="blackAlpha.700"
           fontWeight="bold"
         >
-          <Box as="header">
+          <Box as="header" position="sticky" top={0} zIndex={1}>
             <NavigationBar />
           </Box>
           <Box as="nav">
@@ -32,7 +32,7 @@ const LandingPage = () => {
             "nav header"
             "nav main"
           `}
-          gridTemplateRows={"50px 1fr"}
+          gridTemplateRows={"70px 1fr"}
           gridTemplateColumns={[
             "450px 1fr",
             "450px 1fr",
@@ -45,7 +45,21 @@ const LandingPage = () => {
           color="blackAlpha.700"
           fontWeight="bold"
         >
-          <GridItem area={"header"}>
+          <GridItem
+            area={"header"}
+            position="fixed"
+            top={0}
+            right={-1}
+            w={[
+              "calc(100% - 450px)",
+              "calc(100% - 450px)",
+              "calc(100% - 450px)",
+              "calc(100% - 400px)",
+              "calc(100% - 450px)",
+              "calc(100% - 580px)",
+            ]}
+            zIndex={1}
+          >
             <NavigationBar />
           </GridItem>
           <GridItem

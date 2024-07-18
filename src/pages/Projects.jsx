@@ -25,10 +25,10 @@ const Projects = () => {
         pt="80px"
         pl={"10px"}
       >
-        Projects
+        PROJECTS
       </Heading>
       <SimpleGrid
-        mt={"30px"}
+        mt={5}
         columns={[1, 1, 2, 1, 2, 3]}
         spacing={"20px"}
         px={["5px", "20px", "20px", "20px", "20px", "20px"]}

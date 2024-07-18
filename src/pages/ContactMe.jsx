@@ -97,15 +97,16 @@ const ContactMe = () => {
         fontSize={["38px", "45px", "45px", "45px", "45px", "45px"]}
         pt="80px"
       >
-        Contact Me
+        CONTACT ME
       </Heading>
       <Flex
-        backgroundColor="#CCCCCC22"
+        backgroundColor="#CCCCCC33"
         w={"100%"}
         mt={4}
         borderRadius={"8px"}
         flexDir={["column", "column", "row", "column", "column", "row"]}
         p={["20px"]}
+        boxShadow={"0px 0px 22px 0px rgba(0,0,0,0.1);"}
       >
         <Box
           as={"form"}
@@ -194,7 +195,7 @@ const ContactMe = () => {
           justifyContent={"center"}
         >
           <Image
-            px={["0px", "20px", "20px", "20px", "20px", "20px"]}
+            px={["0px", "10px", "0px", "100px", "130px", "20px"]}
             src={contactMe}
           />
         </Box>

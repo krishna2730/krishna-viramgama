@@ -1,4 +1,4 @@
-import { Box, Flex, Heading } from "@chakra-ui/react";
+import { Box, Card, Flex, Heading } from "@chakra-ui/react";
 import React, { useState } from "react";
 import SkillsGrid from "./common/SkillsGrid";
 import { all } from "../utils/languages";
@@ -10,7 +10,7 @@ const Skills = () => {
     // height: '50px',
     padding: "15px 20px",
     borderRadius: "8px",
-    backgroundColor: "#77291B",
+    backgroundColor: "#A95E2D",
     margin: "5px 0",
     color: "white",
     fontWeight: "bold",
@@ -40,10 +40,10 @@ const Skills = () => {
         pt="80px"
         pl={"10px"}
       >
-        Skills
+        SKILLS
       </Heading>
       <Flex
-        mt={"40px"}
+        mt={5}
         direction={["column", "row"]}
         justifyContent={"center"}
         w={"100%"}
@@ -52,7 +52,7 @@ const Skills = () => {
           direction={["row", "column"]}
           w={"100%"}
           overflowX={["scroll", "unset"]}
-          px={"20px"}
+          px={["5px", "20px", "20px", "20px", "20px", "20px"]}
           gap={4}
           flex={1}
           sx={{
@@ -69,7 +69,7 @@ const Skills = () => {
               sx={{
                 ...(i === step ? activeStyles : inActiveStyles),
                 _hover: {
-                  backgroundColor: "#77291B88",
+                  backgroundColor: "#A95E2D88",
                   color: "white",
                   cursor: "pointer",
                 },
@@ -88,10 +88,12 @@ const Skills = () => {
           flex={2}
           mt={"10px"}
           style={{
-            backgroundColor: "#CCCCCC22",
+            backgroundColor: "#CCCCCC33",
             borderRadius: "8px",
             padding: "40px 40px",
           }}
+          boxShadow={"0px 0px 25px 0px rgba(0,0,0,0.1);"}
+          as={Card}
         >
           <SkillsGrid skills={all[step].data} />
         </Flex>
