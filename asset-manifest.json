@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/krishna-viramgama/static/css/main.1d74815a.css",
+    "main.js": "/krishna-viramgama/static/js/main.e79f4a9d.js",
+    "static/js/453.f19e9853.chunk.js": "/krishna-viramgama/static/js/453.f19e9853.chunk.js",
+    "static/media/cropped_dp.png": "/krishna-viramgama/static/media/cropped_dp.795eb45f6676e0b4a0d3.png",
+    "static/media/authentical_login.png": "/krishna-viramgama/static/media/authentical_login.efcfe5954b11d4de53ee.png",
+    "static/media/vishnuproteins.png": "/krishna-viramgama/static/media/vishnuproteins.fdfc84c5422bbb5ed009.png",
+    "static/media/resume.pdf": "/krishna-viramgama/static/media/resume.7db6ea543756b4d59e86.pdf",
+    "static/media/authentical_team.png": "/krishna-viramgama/static/media/authentical_team.770f59efdad86be1328d.png",
+    "static/media/postgresql.png": "/krishna-viramgama/static/media/postgresql.67118e0a74d714b9ffd2.png",
+    "static/media/html.png": "/krishna-viramgama/static/media/html.8fdeebf60291dbc3e8a0.png",
+    "static/media/truffle.png": "/krishna-viramgama/static/media/truffle.1600b365964bcfeee24e.png",
+    "static/media/webpack.png": "/krishna-viramgama/static/media/webpack.d40675529711a5c59c32.png",
+    "static/media/java.png": "/krishna-viramgama/static/media/java.9f6f197c30c085c7298f.png",
+    "static/media/reactjs.png": "/krishna-viramgama/static/media/reactjs.9f83f4c7acae80b4733b.png",
+    "static/media/flutter.png": "/krishna-viramgama/static/media/flutter.6649892eb353d39aa76f.png",
+    "static/media/babel.png": "/krishna-viramgama/static/media/babel.0aa037574899f8f6e77b.png",
+    "static/media/Vitejs.png": "/krishna-viramgama/static/media/Vitejs.86025360d8ee75f84371.png",
+    "static/media/contact_us.svg": "/krishna-viramgama/static/media/contact_us.e27dd34eae4b353009479bd201a80994.svg",
+    "static/media/mysql.png": "/krishna-viramgama/static/media/mysql.1b41923b816273234890.png",
+    "static/media/express.png": "/krishna-viramgama/static/media/express.a3877f07e93e6759f8de.png",
+    "static/media/aws-cognito.png": "/krishna-viramgama/static/media/aws-cognito.2e30216379e995e54674.png",
+    "static/media/mongoDB.png": "/krishna-viramgama/static/media/mongoDB.171d2802f4d35fca35fa.png",
+    "static/media/nodejs.png": "/krishna-viramgama/static/media/nodejs.bcbca9892e01b54838da.png",
+    "static/media/ts.png": "/krishna-viramgama/static/media/ts.fdc73834d1bd59527fce.png",
+    "static/media/css.png": "/krishna-viramgama/static/media/css.318a1029fa330d7d8cc2.png",
+    "index.html": "/krishna-viramgama/index.html",
+    "static/media/authentical.svg": "/krishna-viramgama/static/media/authentical.608759536136fbb8293a4a00baa5989c.svg",
+    "main.1d74815a.css.map": "/krishna-viramgama/static/css/main.1d74815a.css.map",
+    "main.e79f4a9d.js.map": "/krishna-viramgama/static/js/main.e79f4a9d.js.map",
+    "453.f19e9853.chunk.js.map": "/krishna-viramgama/static/js/453.f19e9853.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d74815a.css",
+    "static/js/main.e79f4a9d.js"
+  ]
+}
