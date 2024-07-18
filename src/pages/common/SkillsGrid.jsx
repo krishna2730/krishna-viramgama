@@ -16,12 +16,13 @@ const SkillsGrid = (props) => {
         scrollbarWidth: "none", // Firefox
       }}
       paddingX={"20px"}
+      py={"10px"}
     >
       <Flex
         w={"100%"}
         flexWrap={"wrap"}
         gap={"60px"}
-        // justifyContent={"center"}
+        justifyContent={"center"}
         // alignItems={"center"}
       >
         {skills.map((item, i) => (
@@ -32,7 +33,7 @@ const SkillsGrid = (props) => {
               alignItems="center"
               cursor={"pointer"}
               _hover={{
-                filter: "drop-shadow(0px 2px 3px #000000DD)",
+                // filter: "drop-shadow(5px 5px 10px #000000);",
                 transform: "scale(1.1)", // Scale/zoom effect on hover
                 transition: "transform 0.3s ease-in-out", // Smooth transition effect
               }}
@@ -46,7 +47,7 @@ const SkillsGrid = (props) => {
                 overflow={"hidden"}
                 w={"100%"}
                 h={"100%"}
-                // p={"25%"}
+                _hover={{ filter: "drop-shadow(5px 5px 10px #000000);" }}
               >
                 <Image
                   src={item.icon}

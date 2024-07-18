@@ -17,9 +17,11 @@ import contactMe from "../images/contact_us.svg";
 import { LuUser } from "react-icons/lu";
 import { MdOutlineEmail, MdOutlineMessage } from "react-icons/md";
 import emailjs from "@emailjs/browser";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const ContactMe = () => {
   const form = useRef();
+  const REACT_APP_SITE_KEY = "6LedGxMqAAAAAN8Eb-OEfGMuNicqQHUwdzaVsJx_";
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -74,25 +76,16 @@ const ContactMe = () => {
       )
       .then(
         () => {
-          // console.log("SUCCESS!");
           setFormData({ name: "", email: "", message: "" });
         },
-        (error) => {
-          // console.log("FAILED...", error.text);
-        }
+        (error) => {}
       );
   };
 
   return (
-    <Box
-      id="contact"
-      maxW="100%"
-      px={["10px", "40px", "40px", "40px", "40px", "40px"]}
-      pb={"50px"}
-    >
+    <Box id="contact" maxW="100%" pb={"50px"} pl={"10px"}>
       <Heading
         color="white"
-        pl={"10px"}
         fontWeight="700"
         fontSize={["38px", "45px", "45px", "45px", "45px", "45px"]}
         pt="80px"
@@ -100,7 +93,10 @@ const ContactMe = () => {
         CONTACT ME
       </Heading>
       <Flex
-        backgroundColor="#CCCCCC33"
+        // backgroundColor="#CCCCCC33"
+        background={
+          "linear-gradient(90deg, #CCCCCC33 0%, rgba(215,149,105,0) 100%)"
+        }
         w={"100%"}
         mt={4}
         borderRadius={"8px"}
@@ -113,6 +109,7 @@ const ContactMe = () => {
           display={"flex"}
           flexDirection="column"
           flex={1}
+          py={"20px"}
           px={["5px", "20px", "20px", "20px", "20px", "20px"]}
           justifyContent={"center"}
           alignItems={"center"}
@@ -156,7 +153,7 @@ const ContactMe = () => {
               <FormErrorMessage>{formErrors.email}</FormErrorMessage>
             )}
           </FormControl>
-          <FormControl isRequired isInvalid={formErrors.message}>
+          <FormControl isRequired isInvalid={formErrors.message} mb={2}>
             <FormLabel color={"white"}>Message </FormLabel>
             <InputGroup>
               <InputLeftElement pointerEvents="none">
@@ -174,10 +171,12 @@ const ContactMe = () => {
               <FormErrorMessage>{formErrors.message}</FormErrorMessage>
             )}
           </FormControl>
+          <ReCAPTCHA sitekey={REACT_APP_SITE_KEY} />
+
           <Button
             type="submit"
             w={"100%"}
-            mt={5}
+            mt={2}
             color={"white"}
             bgColor={"#A95E2D"}
             _hover={{

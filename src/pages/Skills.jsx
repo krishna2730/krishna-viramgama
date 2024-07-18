@@ -28,11 +28,7 @@ const Skills = () => {
   };
 
   return (
-    <Box
-      maxW="100%"
-      id="skills"
-      px={["15px", "40px", "40px", "40px", "40px", "40px"]}
-    >
+    <Box maxW="100%" id="skills">
       <Heading
         color="white"
         fontWeight="700"
@@ -52,7 +48,8 @@ const Skills = () => {
           direction={["row", "column"]}
           w={"100%"}
           overflowX={["scroll", "unset"]}
-          px={["5px", "20px", "20px", "20px", "20px", "20px"]}
+          pr={["5px", "20px", "20px", "20px", "20px", "20px"]}
+          pl={"10px"}
           gap={4}
           flex={1}
           sx={{
@@ -88,7 +85,9 @@ const Skills = () => {
           flex={2}
           mt={"10px"}
           style={{
-            backgroundColor: "#CCCCCC33",
+            // backgroundColor: "#CCCCCC33",
+            background:
+              "linear-gradient(90deg, #CCCCCC33 0%, rgba(215,149,105,0) 100%)",
             borderRadius: "8px",
             padding: "40px 40px",
           }}

@@ -21,12 +21,7 @@ const Home = () => {
     );
   };
   return (
-    <Box
-      w={"100%"}
-      id="home"
-      m={0}
-      px={["15px", "40px", "40px", "40px", "40px", "40px"]}
-    >
+    <Box w={"100%"} id="home" m={0}>
       <Heading
         color="white"
         fontWeight="700"
@@ -36,7 +31,7 @@ const Home = () => {
       >
         ABOUT ME
       </Heading>
-      <Flex h={"auto"} flexDirection={"column"} pl={"15px"} mt={5}>
+      <Flex pl={"10px"} h={"auto"} flexDirection={"column"} mt={5}>
         <Box>
           <CapitalizedText>Experince</CapitalizedText>
           <Box mt={-2}>
@@ -51,12 +46,20 @@ const Home = () => {
                   key={i}
                   as={Flex}
                   gap={"20px"}
-                  p={"20px"}
-                  alignItems={"center"}
+                  p={["20px"]}
+                  alignItems={[
+                    "start",
+                    "start",
+                    "center",
+                    "center",
+                    "center",
+                    "center",
+                  ]}
                   borderRadius={"14px"}
                   background={
                     "linear-gradient(90deg, #CCCCCC33 0%, rgba(215,149,105,0) 100%)"
                   }
+                  flexDir={["column", "column", "row", "row", "row", "row"]}
                   boxShadow={"0px 0px 25px 0px rgba(0,0,0,0.1);"}
                   mb={"20px"}
                 >

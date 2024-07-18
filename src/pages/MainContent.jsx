@@ -10,7 +10,7 @@ const MainContent = () => {
     <Box
       w={"100%"}
       bg="#3C443FED"
-      px={["0px", "30px", "30px", "30px", "30px", "30px"]}
+      px={["15px", "20px", "20px", "20px", "40px", "40px"]}
       m={0}
     >
       <Home />
