@@ -1,4 +1,4 @@
-import { Flex, SimpleGrid, Box, Tooltip, Text, Image } from "@chakra-ui/react";
+import { Flex, Box, Text, Image } from "@chakra-ui/react";
 import React from "react";
 
 const SkillsGrid = (props) => {

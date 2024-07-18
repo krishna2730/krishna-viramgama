@@ -5,16 +5,9 @@ import {
   Text,
   Flex,
   Image,
-  Accordion,
-  AccordionItem,
-  AccordionButton,
-  AccordionPanel,
-  AccordionIcon,
   UnorderedList,
   ListItem,
   Stack,
-  Link,
-  LinkBox,
 } from "@chakra-ui/react";
 import { achievements, experince } from "../utils/languages";
 

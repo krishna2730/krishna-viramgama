@@ -74,11 +74,11 @@ const ContactMe = () => {
       )
       .then(
         () => {
-          console.log("SUCCESS!");
+          // console.log("SUCCESS!");
           setFormData({ name: "", email: "", message: "" });
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          // console.log("FAILED...", error.text);
         }
       );
   };

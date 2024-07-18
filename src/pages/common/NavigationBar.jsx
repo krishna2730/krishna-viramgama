@@ -1,18 +1,9 @@
 import React from "react";
 import {
   Flex,
-  Box,
   Link,
   useMediaQuery,
-  Drawer,
-  DrawerOverlay,
-  DrawerContent,
-  DrawerHeader,
-  DrawerBody,
-  useDisclosure,
   IconButton,
-  HStack,
-  VStack,
   Menu,
   MenuButton,
   MenuList,
@@ -20,7 +11,6 @@ import {
   Text,
   Tooltip,
 } from "@chakra-ui/react";
-import { NavLink, useLocation } from "react-router-dom";
 import "../../styles/NavigationBar.css"; // Ensure to import your custom CSS for any additional styling
 import { menuList } from "../../utils/route";
 import { HiMenu } from "react-icons/hi";

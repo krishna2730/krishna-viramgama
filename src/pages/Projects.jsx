@@ -1,11 +1,7 @@
 import {
   Box,
-  Flex,
-  Grid,
-  GridItem,
   Heading,
   SimpleGrid,
-  Text,
 } from "@chakra-ui/react";
 import React from "react";
 import { projects } from "../utils/languages";

@@ -7,8 +7,10 @@ import {
   Tag,
   HStack,
   Flex,
+  Card,
+  CardBody,
+  CardFooter,
 } from "@chakra-ui/react";
-import { Card, CardBody, CardFooter } from "react-bootstrap";
 import { FiExternalLink } from "react-icons/fi";
 
 const ProjectItem = ({
