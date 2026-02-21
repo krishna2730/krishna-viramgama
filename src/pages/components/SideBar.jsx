@@ -57,7 +57,7 @@ const SideBar = () => {
                 wordBreak={"break-word"}
                 pr={"40px"}
               >
-                Backend-focused Software Engineer building scalable APIs and efficient systems. I enjoy working close to the core logic of applications — designing clean architectures, optimizing performance, and making things work reliably at scale.
+                {aboutMe}
               </Text>
               <Image
                 src={profileDp}
@@ -130,10 +130,7 @@ const SideBar = () => {
               textAlign={"left"}
               mt={"20px"}
             >
-              I bring almost one year of hands-on experience with the MERN
-              stack, focusing on developing modern, scalable, and efficient web
-              applications. I am eager to contribute to exciting projects and
-              welcome any collaboration or opportunities to connect.
+              {aboutMe}
             </Text>
           </Box>
           <Flex justifyContent="center" mb={4}>

@@ -33,6 +33,8 @@ import authentical from "../images/authentical_login.png"
 import vishnuproteins from "../images/vishnuproteins.png"
 
 
+export const aboutMe = "Backend-focused Software Engineer building scalable APIs and efficient systems. I enjoy working close to the core logic of applications — designing clean architectures, optimizing performance, and making things work reliably at scale.";
+
 export const programmingLanguage = [
   { name: 'JavaScript', icon: js },
   { name: 'TypeScript', icon: ts },
