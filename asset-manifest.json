@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/krishna-viramgama/static/css/main.1d74815a.css",
-    "main.js": "/krishna-viramgama/static/js/main.aef7374b.js",
+    "main.js": "/krishna-viramgama/static/js/main.2f223c06.js",
     "static/js/453.f19e9853.chunk.js": "/krishna-viramgama/static/js/453.f19e9853.chunk.js",
     "static/media/cropped_dp.png": "/krishna-viramgama/static/media/cropped_dp.795eb45f6676e0b4a0d3.png",
     "static/media/authentical_login.png": "/krishna-viramgama/static/media/authentical_login.efcfe5954b11d4de53ee.png",
     "static/media/vishnuproteins.png": "/krishna-viramgama/static/media/vishnuproteins.fdfc84c5422bbb5ed009.png",
-    "static/media/resume.pdf": "/krishna-viramgama/static/media/resume.7db6ea543756b4d59e86.pdf",
+    "static/media/resume.pdf": "/krishna-viramgama/static/media/resume.802dd15620db4d559462.pdf",
     "static/media/authentical_team.png": "/krishna-viramgama/static/media/authentical_team.770f59efdad86be1328d.png",
+    "static/media/ncs_logo.png": "/krishna-viramgama/static/media/ncs_logo.30759d97aae3fca1b545.png",
     "static/media/postgresql.png": "/krishna-viramgama/static/media/postgresql.67118e0a74d714b9ffd2.png",
     "static/media/html.png": "/krishna-viramgama/static/media/html.8fdeebf60291dbc3e8a0.png",
     "static/media/truffle.png": "/krishna-viramgama/static/media/truffle.1600b365964bcfeee24e.png",
@@ -26,13 +27,13 @@
     "static/media/ts.png": "/krishna-viramgama/static/media/ts.fdc73834d1bd59527fce.png",
     "static/media/css.png": "/krishna-viramgama/static/media/css.318a1029fa330d7d8cc2.png",
     "index.html": "/krishna-viramgama/index.html",
-    "static/media/authentical.svg": "/krishna-viramgama/static/media/authentical.608759536136fbb8293a4a00baa5989c.svg",
+    "static/media/authentical.svg": "/krishna-viramgama/static/media/authentical.cf4f886472cf6b26dc6764b7aa36d97f.svg",
     "main.1d74815a.css.map": "/krishna-viramgama/static/css/main.1d74815a.css.map",
-    "main.aef7374b.js.map": "/krishna-viramgama/static/js/main.aef7374b.js.map",
+    "main.2f223c06.js.map": "/krishna-viramgama/static/js/main.2f223c06.js.map",
     "453.f19e9853.chunk.js.map": "/krishna-viramgama/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d74815a.css",
-    "static/js/main.aef7374b.js"
+    "static/js/main.2f223c06.js"
   ]
 }
