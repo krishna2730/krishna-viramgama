@@ -146,21 +146,22 @@ export const experince = [
 
 export const achievements = [
   {
-    "title": "University Form Tracking [Winner]",
-    "date": "March 2023",
-    "event": "HackVGEC (University Level)",
-    "details": [
-      "Led platform development to streamline form processing.",
-      "Enhanced form completion rates with automated follow-ups."
-    ]
-  },
-  {
     "title": "Push Notification for Aadhaar Address Change [Finalist]",
     "date": "August 2022",
     "event": "SIH Hackathon (National Level)",
     "details": [
       "Developed a middleware solution to reduce data entry errors.",
       "Improved data accuracy with push notifications for Aadhaar address changes."
+    ]
+  },
+  {
+    "title": "Better Link - Android Emergency Response Application [SSIP Winner]",
+    "date": "March 2021",
+    "event": "SSIP",
+    "details": [
+      "Implemented backend workflows for real-time patient data synchronization ",
+      "Enabled real-time coordination between paramedics, drivers, and hospital staff",
+      "Integrated IoT-based triggers for emergency alerts and monitoring "
     ]
   }
 ];

@@ -57,10 +57,7 @@ const SideBar = () => {
                 wordBreak={"break-word"}
                 pr={"40px"}
               >
-                I bring almost one year of hands-on experience with the MERN
-                stack, focusing on developing modern, scalable, and efficient
-                web applications. I am eager to contribute to exciting projects
-                and welcome any collaboration or opportunities to connect.
+                Backend-focused Software Engineer building scalable APIs and efficient systems. I enjoy working close to the core logic of applications — designing clean architectures, optimizing performance, and making things work reliably at scale.
               </Text>
               <Image
                 src={profileDp}
