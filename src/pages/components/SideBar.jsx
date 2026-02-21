@@ -12,6 +12,7 @@ import {
 } from "@chakra-ui/react";
 import { FaTwitter, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import profileDp from "../../images/cropped_dp.png";
+import { aboutMe } from "../../utils/languages";
 
 const SideBar = () => {
   const [isLargerThan480] = useMediaQuery("(min-width: 480px)");
