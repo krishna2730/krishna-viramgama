@@ -28,6 +28,7 @@ import github from "../images/languages/github.png";
 
 import authentical_team from "../images/authentical_team.png"
 import authentical_logo from "../images/authentical.svg"
+import ncs_logo from "../images/ncs_logo.png"
 import authentical from "../images/authentical_login.png"
 import vishnuproteins from "../images/vishnuproteins.png"
 
@@ -109,20 +110,39 @@ export const projects = [
 
 export const experince = [
   {
-    "role": "Associate Software Engineer",
-    "organisation": "Authentical",
-    "startDate": "Aug, 2023",
-    "endDate": "Present",
-    "experiences": ["Developed a scalable platform using React, Vite, and TypeScript.",
-      "Implemented bulk issuance features.",
-      "Created a mobile app with Flutter, NFC, and Blockchain.",
-      "Created and deployed smart contracts.",
-      "Built high-performance REST APIs with Node.js and Express.js."],
-    "url": "https://authentical.co/team/",
-    "imageSrc": authentical_team,
-    "logo": authentical_logo,
+    role: "Software Engineer",
+    organisation: "NCSI (Singtel Enterprise IT)",
+    startDate: "Aug, 2024",
+    endDate: "Present",
+    experiences: [
+      "Develop backend features for Java Spring Boot microservices in enterprise telecom systems.",
+      "Built and optimized 60+ multithreaded batch jobs processing telecom plan updates.",
+      "Designed SQL workflows and automated REST-based integrations with Oracle DB.",
+      "Delivered production bug fixes and feature enhancements improving system stability.",
+      "Created shell automation scripts reducing release effort and manual validation."
+    ],
+    url: "https://www.ncs.co/en-in/",
+    imageSrc: ncs_logo,   // add your image
+    logo: ncs_logo,        // add your logo
+  },
+  {
+    role: "Software Engineer",
+    organisation: "Authentical",
+    startDate: "Aug, 2023",
+    endDate: "Aug, 2024",
+    experiences: [
+      "Built full-stack proof-of-concept applications using React, Node.js, and TypeScript.",
+      "Designed and implemented REST APIs with Node.js and Express.",
+      "Documented APIs using Swagger for frontend-backend integration.",
+      "Developed Solidity smart contracts for digital ownership and verification.",
+      "Integrated frontend, backend, and blockchain components end-to-end."
+    ],
+    url: "https://authentical.co/team/",
+    imageSrc: authentical_team,
+    logo: authentical_logo,
   }
-]
+];
+
 
 export const achievements = [
   {
